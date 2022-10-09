@@ -116,10 +116,11 @@ input[type=text]:focus{
 .system-msg {
     margin-right:7em;
     margin-left: 1em;
+    margin-bottom: 1em;
     padding: 0.5em 0.5em 0.5em 1em;
     color: #656d78;
     font-size:0.9em;
-    background-color: lightgreen;
+    background-color: paleturquoise;
 }
 
 .timestamp {

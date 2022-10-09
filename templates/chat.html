@@ -50,13 +50,7 @@
 							<div class="tab-content">
 								<!-- Start of Contacts -->
 								<div class="tab-pane fade" id="members">
-									<!-- <div class="search">
-										<form class="form-inline position-relative">
-											<input type="search" class="form-control" id="people" placeholder="Search for people...">
-											<button type="button" class="btn btn-link loop"><i class="material-icons">search</i></button>
-										</form>
-										<button class="btn create" data-toggle="modal" data-target="#exampleModalCenter"><i class="material-icons">person_add</i></button>
-									</div> -->
+									
 									<div class="list-group sort">
 										<button class="btn filterMembersBtn active show" data-toggle="list" data-filter="all">All</button>
 										<button class="btn filterMembersBtn" data-toggle="list" data-filter="online">Online</button>
@@ -75,282 +69,13 @@
 								<!-- Start of Discussions -->
 								<div id="discussions" class="tab-pane fade active show">
 									
-									<!-- <div class="search">
-										<form class="form-inline position-relative">
-											<input type="search" class="form-control" id="conversations" placeholder="Search for conversations...">
-											<button type="button" class="btn btn-link loop"><i class="material-icons">search</i></button>
-										</form>
-										<button class="btn create" data-toggle="modal" data-target="#startnewchat"><i class="material-icons">create</i></button>
-									</div>
-									<div class="list-group sort">
-										<button class="btn filterDiscussionsBtn active show" data-toggle="list" data-filter="all">All</button>
-										<button class="btn filterDiscussionsBtn" data-toggle="list" data-filter="read">Read</button>
-										<button class="btn filterDiscussionsBtn" data-toggle="list" data-filter="unread">Unread</button>
-									</div>						
-									<div class="discussions">
-										<h1>Discussions</h1>
-										<div class="list-group" id="chats" role="tablist">
-											<a href="#list-chat" class="filterDiscussions all unread single active" id="list-chat-list" data-toggle="list" role="tab">
-												<img class="avatar-md" src="dist/img/avatars/avatar-female-1.jpg" data-toggle="tooltip" data-placement="top" title="Janette" alt="avatar">
-												<div class="status">
-													<i class="material-icons online">fiber_manual_record</i>
-												</div>
-												<div class="new bg-yellow">
-													<span>+7</span>
-												</div>
-												<div class="data">
-													<h5>Janette Dalton</h5>
-													<span>Mon</span>
-													<p>A new feature has been updated to your account. Check it out...</p>
-												</div>
-											</a>									
-											<a href="#list-empty" class="filterDiscussions all unread single" id="list-empty-list" data-toggle="list" role="tab">
-												<img class="avatar-md" src="dist/img/avatars/avatar-male-1.jpg" data-toggle="tooltip" data-placement="top" title="Michael" alt="avatar">
-												<div class="status">
-													<i class="material-icons offline">fiber_manual_record</i>
-												</div>
-												<div class="new bg-pink">
-													<span>+10</span>
-												</div>
-												<div class="data">
-													<h5>Michael Knudsen</h5>
-													<span>Sun</span>
-													<p>How can i improve my chances of getting a deposit?</p>
-												</div>
-											</a>									
-											<a href="#list-chat" class="filterDiscussions all read single" id="list-chat-list2" data-toggle="list" role="tab">
-												<img class="avatar-md" src="dist/img/avatars/avatar-female-2.jpg" data-toggle="tooltip" data-placement="top" title="Lean" alt="avatar">
-												<div class="status">
-													<i class="material-icons offline">fiber_manual_record</i>
-												</div>
-												<div class="data">
-													<h5>Lean Avent</h5>
-													<span>Tus</span>
-													<p>Hey Chris, could i ask you to help me out with variation...</p>
-												</div>
-											</a>
-											<a href="#list-empty" class="filterDiscussions all read single" id="list-empty-list2" data-toggle="list" role="tab">
-												<img class="avatar-md" src="dist/img/avatars/avatar-male-2.jpg" data-toggle="tooltip" data-placement="top" title="Mariette" alt="avatar">
-												<div class="status">
-													<i class="material-icons offline">fiber_manual_record</i>
-												</div>
-												<div class="data">
-													<h5>Mariette Toles</h5>
-													<span>5 mins</span>
-													<p>By injected humour, or randomised words which...</p>
-												</div>
-											</a>
-											<a href="#list-chat" class="filterDiscussions all read single" id="list-chat-list3" data-toggle="list" role="tab">
-												<img class="avatar-md" src="dist/img/avatars/avatar-female-3.jpg" data-toggle="tooltip" data-placement="top" title="Harmony" alt="avatar">
-												<div class="status">
-													<i class="material-icons online">fiber_manual_record</i>
-												</div>
-												<div class="data">
-													<h5>Harmony Otero</h5>
-													<span>Mon</span>
-													<p>No more running out of the office at 4pm on Fridays!</p>
-												</div>
-											</a>
-											<a href="#list-empty" class="filterDiscussions all read single" id="list-empty-list3" data-toggle="list" role="tab">
-												<img class="avatar-md" src="dist/img/avatars/avatar-female-5.jpg" data-toggle="tooltip" data-placement="top" title="Keith" alt="avatar">
-												<div class="status">
-													<i class="material-icons offline">fiber_manual_record</i>
-												</div>
-												<div class="data">
-													<h5>Keith Morris</h5>
-													<span>Fri</span>
-													<p>All your favourite books at your reach! We are now mobile.</p>
-												</div>
-											</a>
-											<a href="#list-request" class="filterDiscussions all unread single" id="list-request-list" data-toggle="list" role="tab">
-												<img class="avatar-md" src="dist/img/avatars/avatar-female-6.jpg" data-toggle="tooltip" data-placement="top" title="Louis" alt="avatar">
-												<div class="status">
-													<i class="material-icons offline">fiber_manual_record</i>
-												</div>
-												<div class="new bg-gray">
-													<span>?</span>
-												</div>
-												<div class="data">
-													<h5>Louis Martinez</h5>
-													<span>Feb 10</span>
-													<p>Hi Keith, I'd like to add you as a contact.</p>
-												</div>
-											</a>
-											<a href="#list-empty" class="filterDiscussions all read single" id="list-empty-list4" data-toggle="list" role="tab">
-												<img class="avatar-md" src="dist/img/avatars/avatar-male-3.jpg" data-toggle="tooltip" data-placement="top" title="Ryan" alt="avatar">
-												<div class="status">
-													<i class="material-icons offline">fiber_manual_record</i>
-												</div>
-												<div class="data">
-													<h5>Ryan Foster</h5>
-													<span>Feb 9</span>
-													<p>Dear Deborah, your Thai massage is today at 5pm.</p>
-												</div>
-											</a>
-											<a href="#list-chat" class="filterDiscussions all unread single" id="list-chat-list5" data-toggle="list" role="tab">
-												<img class="avatar-md" src="dist/img/avatars/avatar-male-4.jpg" data-toggle="tooltip" data-placement="top" title="Mildred" alt="avatar">
-												<div class="status">
-													<i class="material-icons offline">fiber_manual_record</i>
-												</div>
-												<div class="new bg-green">
-													<span>+9</span>
-												</div>
-												<div class="data">
-													<h5>Mildred Bennett</h5>
-													<span>Thu</span>
-													<p>Unfortunately your session today has been cancelled!</p>
-												</div>
-											</a>
-										</div>
-									</div> -->
 								</div>
-								
-								<!-- <div id="notifications" class="tab-pane fade">
-									<div class="search">
-										<form class="form-inline position-relative">
-											<input type="search" class="form-control" id="notice" placeholder="Filter notifications...">
-											<button type="button" class="btn btn-link loop"><i class="material-icons filter-list">filter_list</i></button>
-										</form>
-									</div>
-									<div class="list-group sort">
-										<button class="btn filterNotificationsBtn active show" data-toggle="list" data-filter="all">All</button>
-										<button class="btn filterNotificationsBtn" data-toggle="list" data-filter="latest">Latest</button>
-										<button class="btn filterNotificationsBtn" data-toggle="list" data-filter="oldest">Oldest</button>
-									</div>						
-									<div class="notifications">
-										<h1>Notifications</h1>
-										<div class="list-group" id="alerts" role="tablist">
-											<a href="#" class="filterNotifications all latest notification" data-toggle="list">
-												<img class="avatar-md" src="dist/img/avatars/avatar-female-1.jpg" data-toggle="tooltip" data-placement="top" title="Janette" alt="avatar">
-												<div class="status">
-													<i class="material-icons online">fiber_manual_record</i>
-												</div>
-												<div class="data">
-													<p>Janette has accepted your friend request on Swipe.</p>
-													<span>Oct 17, 2018</span>
-												</div>
-											</a>
-											<a href="#" class="filterNotifications all latest notification" data-toggle="list">
-												<img class="avatar-md" src="dist/img/avatars/avatar-male-1.jpg" data-toggle="tooltip" data-placement="top" title="Michael" alt="avatar">
-												<div class="status">
-													<i class="material-icons online">fiber_manual_record</i>
-												</div>
-												<div class="data">
-													<p>Michael, you have a new friend suggestion today.</p>
-													<span>Jun 21, 2018</span>
-												</div>
-											</a>
-											<a href="#" class="filterNotifications all latest notification" data-toggle="list">
-												<img class="avatar-md" src="dist/img/avatars/avatar-male-2.jpg" data-toggle="tooltip" data-placement="top" title="Mariette" alt="avatar">
-												<div class="status">
-													<i class="material-icons online">fiber_manual_record</i>
-												</div>
-												<div class="data">
-													<p>Mariette have just sent you a new message.</p>
-													<span>Feb 15, 2018</span>
-												</div>
-											</a>
-											<a href="#" class="filterNotifications all latest notification" data-toggle="list">
-												<img class="avatar-md" src="dist/img/avatars/avatar-female-6.jpg" data-toggle="tooltip" data-placement="top" title="Louis" alt="avatar">
-												<div class="status">
-													<i class="material-icons online">fiber_manual_record</i>
-												</div>
-												<div class="data">
-													<p>Louis has a birthday today. Wish her all the best.</p>
-													<span>Mar 23, 2018</span>
-												</div>
-											</a>
-											<a href="#" class="filterNotifications all latest notification" data-toggle="list">
-												<img class="avatar-md" src="dist/img/avatars/avatar-female-3.jpg" data-toggle="tooltip" data-placement="top" title="Janette" alt="avatar">
-												<div class="status">
-													<i class="material-icons online">fiber_manual_record</i>
-												</div>
-												<div class="data">
-													<p>Harmony has accepted your friend request on Swipe.</p>
-													<span>Jan 5, 2018</span>
-												</div>
-											</a>
-											<a href="#" class="filterNotifications all oldest notification" data-toggle="list">
-												<img class="avatar-md" src="dist/img/avatars/avatar-female-5.jpg" data-toggle="tooltip" data-placement="top" title="Janette" alt="avatar">
-												<div class="status">
-													<i class="material-icons offline">fiber_manual_record</i>
-												</div>
-												<div class="data">
-													<p>Keith have just sent you a new message.</p>
-													<span>Dec 22, 2017</span>
-												</div>
-											</a>
-											<a href="#" class="filterNotifications all oldest notification" data-toggle="list">
-												<img class="avatar-md" src="dist/img/avatars/avatar-female-2.jpg" data-toggle="tooltip" data-placement="top" title="Janette" alt="avatar">
-												<div class="status">
-													<i class="material-icons offline">fiber_manual_record</i>
-												</div>
-												<div class="data">
-													<p>Michael, you have a new friend suggestion today.</p>
-													<span>Nov 29, 2017</span>
-												</div>
-											</a>
-											<a href="#" class="filterNotifications all oldest notification" data-toggle="list">
-												<img class="avatar-md" src="dist/img/avatars/avatar-male-3.jpg" data-toggle="tooltip" data-placement="top" title="Janette" alt="avatar">
-												<div class="status">
-													<i class="material-icons offline">fiber_manual_record</i>
-												</div>
-												<div class="data">
-													<p>Ryan have just sent you a new message.</p>
-													<span>Sep 31, 2017</span>
-												</div>
-											</a>
-											<a href="#" class="filterNotifications all oldest notification" data-toggle="list">
-												<img class="avatar-md" src="dist/img/avatars/avatar-male-4.jpg" data-toggle="tooltip" data-placement="top" title="Janette" alt="avatar">
-												<div class="status">
-													<i class="material-icons offline">fiber_manual_record</i>
-												</div>
-												<div class="data">
-													<p>Mildred has a birthday today. Wish him all the best.</p>
-													<span>Jul 19, 2017</span>
-												</div>
-											</a>
-										</div>
-									</div>
-								</div>  -->
-								<!-- End of Notifications -->
 								
 							</div>
 						</div>
 					</div>
 				</div>
-				<!-- End of Sidebar -->
-				<!-- Start of Add Friends -->
-				<!-- <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-hidden="true">
-					<div class="modal-dialog modal-dialog-centered" role="document">
-						<div class="requests">
-							<div class="title">
-								<h1>Add your friends</h1>
-								<button type="button" class="btn" data-dismiss="modal" aria-label="Close"><i class="material-icons">close</i></button>
-							</div>
-							<div class="content">
-								<form>
-									<div class="form-group">
-										<label for="user">Username:</label>
-										<input type="text" class="form-control" id="user" placeholder="Add recipient..." required>
-										<div class="user" id="contact">
-											<img class="avatar-sm" src="dist/img/avatars/avatar-female-5.jpg" alt="avatar">
-											<h5>Keith Morris</h5>
-											<button class="btn"><i class="material-icons">close</i></button>
-										</div>
-									</div>
-									<div class="form-group">
-										<label for="welcome">Message:</label>
-										<textarea class="text-control" id="welcome" placeholder="Send your welcome message...">Hi Keith, I'd like to add you as a contact.</textarea>
-									</div>
-									<button type="submit" class="btn button w-100">Send Friend Request</button>
-								</form>
-							</div>
-						</div>
-					</div>
-				</div> -->
-				<!-- End of Add Friends -->
-				<!-- Start of Create Chat -->
+				
 				
 				<!-- End of Create Chat -->
 				<div class="main">
@@ -409,14 +134,11 @@
 									</div>
 								</div>
 							</div>
-							<!-- End of Chat -->
-							<!-- Start of Call -->
-						
-						<!-- End of Babble -->
-					</div>
-				</div>
-			</div> <!-- Layout -->
-		</main>
+							
+					    </div>
+				    </div>
+			    </div> 
+</main>
 
 		<!-- Get username -->
 		<span id="get-username">{{ username }}</span>
